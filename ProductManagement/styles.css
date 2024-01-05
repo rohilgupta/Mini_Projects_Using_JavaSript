@@ -1,0 +1,39 @@
+.heading{
+    background-color: rgb(214, 137, 21);
+    color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.maindiv{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+border:2px solid black;
+padding: 10px;
+
+}
+.addbutton{
+border: 2px solid black;
+color:white;
+padding: 5px;
+background-color: green;
+}
+.updatebutton{
+border: 2px solid black;
+color:white;
+padding: 5px;
+background-color: rgb(104, 74, 163);
+}
+.deletebutton{
+border: 2px solid black;
+color:white;
+padding: 5px;
+background-color: rgb(229, 17, 21);
+}
+.error
+{
+    color: red;
+}

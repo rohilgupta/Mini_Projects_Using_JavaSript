@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<header class="heading"> <h1>Product Management</h1></header>
+<div class="maindiv">
+    <div class="form">  
+        <table>
+            <form>
+                <tr>
+                    <th>Produc Id:</th>
+                    <td><input type="text" id="pid" name="pid" required min = 1></td>
+                    <td><div  class="error" id="nerror"></div></td>
+                </tr>
+                <tr>
+                    <th>Product Name:</th>
+                    <td><input type="text" id="pname" name="pname" required ></td>
+                    <td><div  class="error" id="nmerror"></div></td>
+                </tr>
+                <tr>
+                    <th>Quantity:</th>
+                    <td><input type="text" id="qty" name="qty" required></td>
+                    <td><div  class="error" id="qerror"></div></td>
+                </tr> 
+                 <tr>
+                    <th>Price:</th>
+                    <td><input type="text" id="price" name="price" required></td>
+                    <td><div  class="error" id="prerror"></div></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th><button type="button" id="add" name="add" onclick="AddProduct()" class="addbutton">ADD</button></th>
+                    <th><button type="button" id="add" name="add" onclick="UpdateProduct()" class="updatebutton">Update</button></th>
+                    <th><button type="button" id="add" name="add" onclick="DeleteProduct()" class="deletebutton">Delete</button></th>
+                </tr>
+            </form>
+      </table>
+    </div>
+        <div id="showHere"></div>
+</div>
+</body>
+</html>
